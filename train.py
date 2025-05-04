@@ -49,6 +49,6 @@ while True:
 # Release resources
 cap.release()
 out.release()
-print("✅ Done. Output saved as 'output_tracked_ball.mp4    '")
+print("Output saved as 'output_tracked_ball.mp4    '")
 
 
