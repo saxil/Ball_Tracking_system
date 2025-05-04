@@ -1,0 +1,8 @@
+# green_ball.yaml
+
+path: C:/Users/sahil/Desktop/everything/Desktop/ml/Projects/Ball_Tracking_system/greenball_dataset
+train: images/train
+val: images/val
+
+names:
+  0: greenball

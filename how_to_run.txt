@@ -1,0 +1,4 @@
+#train
+yolo task=detect mode=train model=yolov8n.pt data=combined_greenball/data.yaml epochs=50 imgsz=640
+#detect
+yolo task=detect mode=predict model=runs/detect/train5/weights/best.pt source=test.mp4 conf=0.5 save=True project=runs/detect name=test_video_output

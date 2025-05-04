@@ -1,0 +1,4 @@
+train: C:/Users/sahil/Desktop/everything/Desktop/ml/Projects/Ball_Tracking_system/combined_greenball/train/images
+val: C:/Users/sahil/Desktop/everything/Desktop/ml/Projects/Ball_Tracking_system/combined_greenball/valid/images
+nc: 1
+names: ['greenball']

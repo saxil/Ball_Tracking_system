@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Green Ball']
+
+roboflow:
+  workspace: balltrackingsystem
+  project: green-ball-v17ti-arnob
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/balltrackingsystem/green-ball-v17ti-arnob/dataset/1
