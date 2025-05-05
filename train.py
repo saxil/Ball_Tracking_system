@@ -3,12 +3,10 @@ import cv2
 
 # Load YOLOv8 model (change path if needed)
 model = YOLO("runs/detect/greenball_yolov83/weights/best.pt")
-
 # Load video
 cap = cv2.VideoCapture("test.mp4")
 if not cap.isOpened():
-    raise Exception("⚠️ Couldn't open the video file.")
-
+    raise Exception("⚠️ Couldn't open the video file.")````````````````````````````````````````````````                                     
 # Video properties
 fps = cap.get(cv2.CAP_PROP_FPS)
 w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
