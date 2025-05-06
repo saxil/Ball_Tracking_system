@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load YOLOv8 model (change path if needed)
-model = YOLO("runs/detect/greenball_yolov83/weights/best.pt")
+model = YOLO("yolov8n.pt")  # Use official pretrained YOLOv8n model
 # Load video
 cap = cv2.VideoCapture("test.mp4")
 if not cap.isOpened():
